@@ -1,5 +1,7 @@
 @charset "UTF-8";
+
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;500&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -21,6 +23,7 @@ h1{
     top: 20%;
     left: 50%;
     width: 90%;
+
     text-align: center;
     transform: translateX(-50%);
     color: white;
@@ -36,6 +39,7 @@ main{
     top: 30%;
     left: 50%;
     transform: translateX(-50%);
+
     display: flex;
     justify-content: space-between;
     width: 600px;
@@ -47,9 +51,9 @@ section{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-
     width: 32%;
     height: 200px;
+
     background-color: var(--colorBox1);
 }
 section > div{
@@ -78,11 +82,15 @@ section > span{
 section:nth-child(3){
     background-color: var(--colorBox2);
 }
+
+
 @media (max-width: 600px) {
     main{
         width: 80%;
     }
 }
+
+
 @media (max-width: 400px) {
     main{
         width: 80%;
@@ -97,8 +105,8 @@ section:nth-child(3){
         padding: 10px 0;
         font-size: 3em;
     }
-    selection > span{
-        font-size: 1em;
+    section > span{
+        font-size: .8em;
     }
 }
 
