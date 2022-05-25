@@ -6,23 +6,23 @@
     box-sizing: border-box;
 }
 :root{
-    --colorBox1:rgb(28, 151, 162);
+    --colorBox1:rgb(20, 117, 165);
     --colorBox2: rgb(202, 31, 9);
 }
 
 body{
+    position: relative;
     width: 100vw;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-
-    justify-content: center;
-    align-items: center;
-
     background-color: #111;
-    overflow-y: hidden;
 }
 h1{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 90%;
+    text-align: center;
+    transform: translateX(-50%);
     color: white;
     font-size: 2em;
     font-family: "Montserrat" ;
@@ -32,6 +32,10 @@ h1{
     padding-bottom: 30px;
 }
 main{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
     display: flex;
     justify-content: space-between;
     width: 600px;
