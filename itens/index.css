@@ -1,0 +1,100 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --colorBox1:rgb(28, 151, 162);
+    --colorBox2: rgb(202, 31, 9);
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: #111;
+    overflow-y: hidden;
+}
+h1{
+    color: white;
+    font-size: 2em;
+    font-family: "Montserrat" ;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    padding-bottom: 30px;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+
+    -webkit-box-reflect: below 5px  linear-gradient(transparent 20%, #0000003e);
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 32%;
+    height: 200px;
+    background-color: var(--colorBox1);
+}
+section > div{
+    padding-top: 35px;
+    
+    color: white;
+    font-size: 5em;
+    font-family: "Bebas Neue" ;
+    letter-spacing: 2px;
+}
+section > span{
+    width: 100%;
+    text-align: center;
+    background-color: var(--colorBox1);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.792);
+    padding: 2px 0;
+    
+    color: white;
+    font-size: 1.3em;
+    font-family: "Bebas Neue";
+    letter-spacing: 1px;
+}
+.seg{
+    background-color: var(--colorBox2);
+}
+section:nth-child(3){
+    background-color: var(--colorBox2);
+}
+@media (max-width: 600px) {
+    main{
+        width: 80%;
+    }
+}
+@media (max-width: 400px) {
+    main{
+        width: 80%;
+    }
+    section{
+        height: 120px;
+    }
+    h1{
+        font-size: 1em;
+    }
+    section > div{
+        padding: 10px 0;
+        font-size: 3em;
+    }
+    selection > span{
+        font-size: 1em;
+    }
+}
+
