@@ -44,7 +44,7 @@ main{
     justify-content: space-between;
     width: 600px;
 
-    -webkit-box-reflect: below 5px  linear-gradient(transparent 20%, #0000003e);
+    -webkit-box-reflect: below 5px  linear-gradient(transparent, #0000004a);
 }
 section{
     display: flex;
