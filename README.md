@@ -2,7 +2,7 @@
  <h1>Relogio</h1>
  <p>Relogio digital com efeito de reflexo. <br> <a href='https://m1guelzinn.github.io/relogio/'>clique aqui para ver a página online</a></p>
 
- <img width='60%' src='itens/img&favicon/gifTime.gif'>
+ <img width='80%' src='itens/img&favicon/gifTime.gif'>
  <div>
    <h2> 🛠 Tecnologias usadas<h2>
 
