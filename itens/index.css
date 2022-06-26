@@ -8,15 +8,19 @@
     box-sizing: border-box;
 }
 :root{
+    --colorbg:rgb(38, 38, 38);
     --colorBox1:rgb(20, 117, 165);
     --colorBox2: rgb(202, 31, 9);
+
+    --fontFamily1: 'Montserrat';
+    --fontFamily2:'Bebas Neue';
 }
 
 body{
     position: relative;
     width: 100vw;
     height: 100vh;
-    background-color: #111;
+    background-color: var(--colorbg);
 }
 h1{
     position: absolute;
@@ -28,7 +32,7 @@ h1{
     transform: translateX(-50%);
     color: white;
     font-size: 2em;
-    font-family: "Montserrat" ;
+    font-family: var(--fontFamily1) ;
     text-transform: uppercase;
     letter-spacing: 1px;
 
@@ -61,7 +65,7 @@ section > div{
     
     color: white;
     font-size: 5em;
-    font-family: "Bebas Neue" ;
+    font-family: var(--fontFamily2) ;
     letter-spacing: 2px;
 }
 section > span{
@@ -73,7 +77,7 @@ section > span{
     
     color: white;
     font-size: 1.3em;
-    font-family: "Bebas Neue";
+    font-family: var(--fontFamily2);
     letter-spacing: 1px;
 }
 .seg{

@@ -1,10 +1,10 @@
-function getData(){
-    let hora = new Date().getHours()
-    let minuto = new Date().getMinutes()
-    let segundo = new Date().getSeconds()
+function getData() {
+  const hora = new Date().getHours();
+  const minuto = new Date().getMinutes();
+  const segundo = new Date().getSeconds();
 
-    document.querySelector('#h').innerHTML = hora
-    document.querySelector('#m').innerHTML = minuto
-    document.querySelector('#s').innerHTML = segundo
+  document.querySelector('#hora').innerText = hora;
+  document.querySelector('#minuto').innerText = minuto;
+  document.querySelector('#segundo').innerText = segundo;
 }
-var intervalo = setInterval(getData, 1000)
+setInterval(getData, 100);
